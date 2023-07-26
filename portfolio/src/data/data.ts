@@ -30,7 +30,7 @@ const projects = [
   {
     slug: 'secretword',
     name: 'Secret World',
-    repoUrl: 'https://github.com/JotaDD/secretword',
+    repoUrl: 'https://github.com/JotaDD/secretword-next',
     image: {
       url: 'https://i.imgur.com/8wKzcrD.png',
       alt: 'Jogo da forca | Secret Word',
