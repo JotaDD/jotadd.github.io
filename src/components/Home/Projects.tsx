@@ -11,7 +11,7 @@ const Projects = ({projects}:ProjectsProps) => {
       <h2 className='text-3xl md:text-4xl'>Projetos Recentes</h2>
       <ul className='flex flex-wrap gap-16 justify-center xl:justify-start'>
         {projects.map(({slug,name,image},index)=>(
-          <Link href={`/projects/${slug}`} key={name + index}>
+          <Link href={`/${slug}`} key={name + index}>
             <li className='text-md list-none'>
               <Image
                 className='object-cover rounded-2xl h-[18.75rem] w-[18.75rem] mb-4'
