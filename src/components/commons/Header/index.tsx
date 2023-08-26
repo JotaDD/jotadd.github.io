@@ -31,13 +31,13 @@ const Header = () => {
       <button className='p-1 md:hidden' onClick={ openMenu }>
         <MenuIcon className='fill-white w-10 h-10 ' />
       </button>
-      <div className=' md:flex items-center gap-10 text-md' >
-        <Language />
+      {/* <div className=' md:flex items-center gap-10 text-md' > */}
         <nav className='hidden md:flex items-center gap-10 text-md '>
+          <Language />
           <Link href='/'>{ translate("aboutMeHeader") }</Link>
           <Link href='/contact'>{ translate("contactMeHeader") }</Link>
         </nav>
-      </div>
+      {/* </div> */}
       <Menu isVisible={ isMenuOpen } onClose={ closeMenu } />
     </header>
   );

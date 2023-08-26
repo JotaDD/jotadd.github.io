@@ -12,5 +12,8 @@
   "aboutMeHeader": "About",
   "contactMeHeader": "Contact",
 
-  "contactContact": "Contact"
+  "contactContact": "Contact",
+
+  "aboutMeMenu": "About Me",
+  "contactMeMenu": "Get in touch"
 }

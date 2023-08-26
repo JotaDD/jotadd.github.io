@@ -9,9 +9,12 @@
 
   "projects": "Projetos Recentes",
 
-  "aboutMeHeader": "Sobre mim",
-  "contactMeHeader": "Entre em contato",
+  "aboutMeHeader": "Sobre",
+  "contactMeHeader": "Contato",
 
-  "contactContact": "Contato"
+  "contactContact": "Contato",
+
+  "aboutMeMenu": "Sobre mim",
+  "contactMeMenu": "Entre em contato"
 
 }

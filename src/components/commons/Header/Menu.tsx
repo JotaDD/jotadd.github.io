@@ -1,5 +1,7 @@
 import { MenuCloseIcon } from '@/components/icons/MenuCloseIcon';
 import Link from 'next/link';
+import Language from './Language';
+import { useTranslation } from 'next-i18next';
 
 type MenuProps = {
   isVisible: boolean;
@@ -8,6 +10,7 @@ type MenuProps = {
 
 
 const Menu = ({isVisible, onClose}: MenuProps) => {
+  const {t:translate} = useTranslation('common');
   return (
     <div className={ `${ isVisible ? 'flex' : 'hidden'}
       fixed inset-0 w-full h-full bg-black bg-opacity-40 backdrop-blur-sm md:hidden
@@ -22,8 +25,9 @@ const Menu = ({isVisible, onClose}: MenuProps) => {
           </button>
         </div>
         <nav className=' flex flex-col gap-5 text-xl p-5 items-center'>
-          <Link href='/' onClick={onClose}>Sobre mim</Link>
-          <Link href='/contact' onClick={ onClose }>Entre em contato</Link>
+          <Link href='/' onClick={ onClose }>{ translate("aboutMeMenu")}</Link>
+          <Link href='/contact' onClick={ onClose }>{ translate("contactMeMenu") }</Link>
+        <Language width={40} className='w-[6rem]'/>
         </nav>
       </div>
     </div>
