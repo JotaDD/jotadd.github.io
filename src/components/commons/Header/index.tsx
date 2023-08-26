@@ -26,7 +26,7 @@ const Header = () => {
     setIsMenuOpen(false);
   }, []);
   return (
-    <header className={ `${ montserrat.className } border bg-j-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20` }>
+    <header className={ `${ montserrat.className } bg-j-blue-900 text-sm flex py-3 px-5 justify-between items-center sticky top-0 z-20` }>
       <Link href='/'>Home</Link>
       <button className='p-1 md:hidden' onClick={ openMenu }>
         <MenuIcon className='fill-white w-10 h-10 ' />
