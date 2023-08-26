@@ -1,4 +1,4 @@
-import { CopyIcon } from '../icons/CopyIcon';
+import { CopyIcon } from '../../icons/CopyIcon';
 
 type CopyButtonProps = {
   textToCopy:string

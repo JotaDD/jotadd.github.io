@@ -1,4 +1,5 @@
 import { Project } from '@/types/Home';
+import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -6,9 +7,10 @@ type ProjectsProps = {
   projects : Project[];
 }
 const Projects = ({projects}:ProjectsProps) => {
+  const { t: translate } = useTranslation('common');
   return (
     <article className=' space-y-16 flex flex-col items-center xl:items-start text-center xl:text-left'>
-      <h2 className='text-3xl md:text-4xl'>Projetos Recentes</h2>
+      <h2 className='text-3xl md:text-4xl'>{ translate("projects")}</h2>
       <ul className='flex flex-wrap gap-16 justify-center xl:justify-start'>
         {projects.map(({slug,name,image},index)=>(
           <Link href={`/${slug}`} key={name + index}>

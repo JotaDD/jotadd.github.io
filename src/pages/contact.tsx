@@ -1,4 +1,4 @@
-import CopyButton from '@/components/commons/CopyButton';
+import CopyButton from '@/components/commons/Button/CopyButton';
 import Head from 'next/head';
 const Contact = () => {
   return (

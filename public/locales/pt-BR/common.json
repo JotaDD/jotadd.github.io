@@ -1,0 +1,14 @@
+{
+  "contact": "Oi, eu sou o João",
+  "greetings": "Oi, eu sou o",
+  "name": "João",
+  "nickname": "(ou Jota se preferir)",
+  "intro": "Sou desenvolvedor Front-end e entusiasta em Back-end nas horas vagas!",
+  "contactMe": "Converse comigo!",
+  "altPhoto": "Minha foto",
+
+  "projects": "Projetos Recentes",
+
+  "aboutMeHeader": "Sobre mim",
+  "contactMeHeader": "Entre em contato"
+}

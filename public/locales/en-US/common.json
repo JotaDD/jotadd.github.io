@@ -1,0 +1,14 @@
+{
+  "contact": "Hi, I'm John",
+  "greetings": "Hi, I'm",
+  "name": "John",
+  "nickname": "(or Jay if you prefer)",
+  "intro": "I'm a front-end developer and back-end enthusiast at my free time.",
+  "contactMe": "Get in touch!",
+  "altPhoto": "My photo",
+
+  "projects": "Recent Projects",
+
+  "aboutMeHeader": "About",
+  "contactMeHeader": "Get in touch"
+}

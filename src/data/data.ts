@@ -32,7 +32,7 @@ const projects = [
   },
   {
     slug: 'secretword-next',
-    name: 'Secret World',
+    name: 'Secret Word',
     repoUrl: 'https://github.com/JotaDD/secretword-next',
     pageUrl: '',
     image: {
