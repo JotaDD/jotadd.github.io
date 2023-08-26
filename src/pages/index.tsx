@@ -19,17 +19,9 @@ export default function Home() {
     </>
   );
 }
-export const getServerSideProps = async ({ locale }: {locale:string}) => {
-  console.log(locale)
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ['common'])),
-    },
-  };
-  }
 
-// export const getServerSideProps = async ({ locale }) => ({
-//   props: {
-//     ...(await serverSideTranslations(locale, ['common'])),
-//   },
-// });
+export const getServerSideProps = async ({ locale }: { locale: string; }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ['common'])),
+  },
+});
